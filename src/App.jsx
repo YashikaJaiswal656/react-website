@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './include/header'
-import './app.css'
+import './App.css'
 import Footer from './include/footer'
 const App = () => {
   return (
