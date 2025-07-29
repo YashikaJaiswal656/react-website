@@ -184,5 +184,14 @@ width: 80%;
       width:100%;
       margin-right: 0;
     }
+    .bg_cont h1{
+      font-size: 40px;
+    }
+    .sm_box span{
+      justify-content: center;
+    }
+    .sm_box button{
+      width: 100%;
+    }
 
 }
