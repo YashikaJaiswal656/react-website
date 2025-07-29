@@ -1,0 +1,71 @@
+.contact,.contact_container{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px 0px 50px 0px ;
+
+}
+.contact .contt{
+    display: ruby;
+    text-align: center;
+}
+.cont_contact{
+    padding: 50px 25px ;
+    border: 5px solid #EEF2F6;
+    text-align: center;
+    width: 280px;
+}
+.cont_contact i{
+    color: #e12454;
+    font-size: 50px;
+}
+.cont_contact h5{
+    font-size: 20px;
+    color: #221;
+    font-weight: 700;
+    margin: 5px 0px 5px 0px ;
+}
+.cont_contact p{
+    color: #8eaac5;
+}
+.contact_container .contt{
+    flex-direction: column;
+    text-align: center;
+}
+.contact_container p{
+    color: #8eaac5;
+    font-size: 16px;
+    margin: 50px 0px 50px 0px ;
+}
+
+.contact_container input,.contact_container select{
+  background-color: #f4f9fc;
+  height: 55px;
+  border-color: rgba(0, 0, 0, 0.05);
+  color: #495057;
+margin: 10px 20px 10px 0px;
+width: 480px;
+padding: 0px 0px 0px 5px;
+}
+.contact_container textarea{
+  background-color: #f4f9fc;
+  height: 130px;
+  border-color: rgba(0, 0, 0, 0.05);
+  color: #495057;
+margin: 10px 20px 10px 0px;
+width: 92%;
+padding: 0px 0px 0px 5px;
+}
+select{
+width: 229px;
+}
+.contact_container button{
+    background-color: #223A65;
+}
+@media screen and (max-width:657px) {
+    .ap_form select ,.ap_form input ,.ap_form textarea ,.contact_container input ,.contact_container select,.contact_container textarea{
+        width: 100%;
+    }
+}
