@@ -5,7 +5,7 @@ const Footer = () => {
     <>
 <div className="footer">
 <div className="contt">
-  <p>© Copyright Reserved to Hospital by <h4>Yashika</h4>
+  <p>© Copyright Reserved by <h4>Yashika</h4>
 </p>
 </div>
 </div>
