@@ -2,7 +2,8 @@ import React from 'react'
 import Header from './include/header';
 import Footer from './include/footer';
 import './about.css'
-import Cards from './hooks/cards';
+import Cards from './components/cards';
+
 
 const About = () => {
     return (

@@ -2,8 +2,7 @@ import React from 'react'
 import Header from './include/header'
 import Footer from './include/footer'
 import './service.css'
-import Cards from './hooks/cards'
-
+import Cards from './components/cards';
 const Service = () => {
     return (
         <>
